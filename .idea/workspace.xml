@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ede99b3-4dd3-40df-931e-5e6ed732eb71" name="Changes" comment="README.md">
+    <list default="true" id="2ede99b3-4dd3-40df-931e-5e6ed732eb71" name="Changes" comment="Navbar basic">
+      <change afterPath="$PROJECT_DIR$/src/components/navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/navigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +38,9 @@
     &quot;accountId&quot;: &quot;cecdb27d-7b0b-4edd-95dc-5a024c0c890a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -52,6 +65,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TYLERKIONGTAILE\OneDrive - NUS High School\Documents\GitHub\mythosyne\src\components" />
+      <recent name="C:\Users\TYLERKIONGTAILE\OneDrive - NUS High School\Documents\GitHub\mythosyne\src\app" />
       <recent name="C:\Users\TYLERKIONGTAILE\OneDrive - NUS High School\Documents\GitHub\mythosyne" />
       <recent name="C:\Users\TYLERKIONGTAILE\OneDrive - NUS High School\Documents\GitHub\mythosyne\" />
     </key>
@@ -72,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731730198946</updated>
       <workItem from="1731730200467" duration="523000" />
-      <workItem from="1731730869153" duration="957000" />
+      <workItem from="1731730869153" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -90,15 +105,35 @@
       <option name="project" value="LOCAL" />
       <updated>1731731514666</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1731731883344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731731883344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="Navbar basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar basic" />
   </component>
 </project>

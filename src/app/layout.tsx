@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
+import {Navigation} from "@/components/navigation";
+import { Kode_Mono } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const main = Kode_Mono({ subsets:['latin'] })
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${main.className} antialiased bg-gradient-to-tr from-yellow-100 to-amber-100`}
       >
+      <Navigation/>
         {children}
       </body>
     </html>
