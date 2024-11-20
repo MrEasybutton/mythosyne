@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${main.className} antialiased bg-gradient-to-tr from-yellow-100 to-amber-100`}
+        className={`${main.className} antialiased bg-gradient-to-tr from-gray-50 to-slate-50`}
       >
       <Navigation/>
         {children}
